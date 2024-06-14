@@ -1,3 +1,4 @@
+// module-alias is used to create aliases for directories e.g. ../../../../utils becomes @utils
 require("module-alias/register");
 const app = require("./app");
 const dotenv = require("dotenv");

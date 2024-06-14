@@ -7,6 +7,7 @@ const initialTasks = [];
 // write the initial tasks to the tasks.json file
 const writeInitialTasks = async () => {
   try {
+    // write the initial tasks to the tasks.json file
     await fs.writeFileSync(taskPath, JSON.stringify(initialTasks, null, 2));
   } catch (error) {
     console.error(error);
