@@ -7,8 +7,8 @@ Express Good Practice Code: A well-structured Express.js application demonstrati
 - Demonstrates best practices for Express.js projects
 
 ## Prerequisites
-- [Node.js](https://nodejs.org/en/) (v14 or higher)
-- [npm](https://www.npmjs.com/get-npm) (v6 or higher) or [yarn](https://yarnpkg.com/getting-started/install)
+- [Node.js](https://nodejs.org/en/) 
+- [npm](https://www.npmjs.com/get-npm)
 
 ## Installation
 
