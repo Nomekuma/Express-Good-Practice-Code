@@ -1,0 +1,27 @@
+{
+  "name": "express-good-practice-code",
+  "version": "1.0.0",
+  "description": "Express Good Practice Code: A well-structured Express.js application demonstrating good coding practices for task management. The project utilizes task.json as the data model and reinitializes tasks every time the server resets. Ideal for learning and practicing Express.js API development with a focus on clean code and proper project setup.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "module-alias": "^2.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  },
+  "_moduleAliases": {
+    "@utils": "src/utils"
+  }
+}
